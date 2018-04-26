@@ -4,13 +4,14 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">My Contacts</a>
+    <router-link class="navbar-brand" to="contacts">My Contacts</router-link>
+    
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <router-link to="/" class="nav-link">Home</router-link>
+        <router-link class="nav-item nav-link" to="contacts">Contacts</router-link>
       </li>
       <li class="nav-item">
-        <router-link to="add-contact" class="nav-link">Add Contact</router-link>
+        <router-link class="nav-item nav-link" to="add-contact">Add Contact</router-link>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

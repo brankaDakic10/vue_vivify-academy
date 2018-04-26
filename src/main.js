@@ -12,7 +12,7 @@ const routes=[
   {path:'/',redirect:'/contacts'},
     
   { path:'/contacts', component: Contacts },
-  { path:'/add-contacts', component: AddContact }
+  { path:'/add-contact', component: AddContact }
 
 ]
 
